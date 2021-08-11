@@ -1,11 +1,14 @@
 # Interview-Questions
 This is a repository with what I believe are good interview questions regarding Java, Spring, SQL, Design Patterns, Refactorings etc
-##TOC
-[Java](#Java)
-[Spring](#Spring)
-[SQL](#SQL)
-[Design Patterns](#Design Patterns)
-[Refactorings](#Refactorings)
+
+## Table Of Contents
+
+1. [Java](#Java)
+2. [Spring](#Spring)
+  1. [Spring Core](#Spring-Core)
+3. [SQL](#SQL)
+4. [Design Patterns](#Design-Patterns)
+5. [Refactorings](#Refactorings)
 
 ## Spring
 
