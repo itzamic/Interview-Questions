@@ -14,17 +14,31 @@ This is a repository with what I believe are good interview questions regarding 
 4. [Design Patterns](#Design-Patterns)
 5. [Refactorings](#Refactorings)
 
+## Java
+
+### Java Core
+1. What is the differences between List and Set?
+2. What is the differences between Interface and Abstract classes?
+3. What is a final?
+4. Where to save a password?
+5. What the difference between new String and direct assignment?
+6. What is volatile?
+7. Can we can abstract methods in a abstract constructor?
+8. What are the differences between override and overload?
+9. Why use composition over inheritance?
+10. 
+
 ## Spring
 
 ### Spring Core
 1. What are the benefits of using Spring
-> Lightweigth - There is a slight overhead of using the framework in development
-> Inversion of Control (IoC) - Spring container takes care of wiring dependencies of various objects instead of creating or looking for dependent objects.
-> Aspect-Oriented Programming (AOP) - Spring supports AOP to seperate business logic from system services.
-> IoC container - manages Spring Bean life cycle and project-specific configurations
-> MVC framework - used to create web applications or RESTful web services, capable of returning XML/JSON responses.
-> Transaction management - reduces the ammount of boilerplate code in JDBC operations, file uploading, etc. either by using Java annotations or by Spring Bean XML configuration file
-> Exception Handling - Spring provides a convenient API for translating technology-specific exceptions into unchecked exceptions.
+> 1. Lightweigth - There is a slight overhead of using the framework in development
+> 2. Inversion of Control (IoC) - Spring container takes care of wiring dependencies of various objects instead of creating or looking for dependent objects.
+> 3. Aspect-Oriented Programming (AOP) - Spring supports AOP to seperate business logic from system services.
+> 4. IoC container - manages Spring Bean life cycle and project-specific configurations
+> 5. MVC framework - used to create web applications or RESTful web services, capable of returning XML/JSON responses.
+> 6. Transaction management - reduces the ammount of boilerplate code in JDBC operations, file uploading, etc. either by using Java annotations or by Spring Bean XML configuration file
+> 7. Exception Handling - Spring provides a convenient API for translating technology-specific exceptions into unchecked exceptions.
 2. What is Dependency Injection
 > Dependency Injection, an aspect of Inversion of Control (IoC), is a general concept stating that we do not create our objects manually but instead describe how they should be created. Then an IoC container will instantiate required classes if needed.
 3. What is the difference between BeanFactory and ApplicationContext
